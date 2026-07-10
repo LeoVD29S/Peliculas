@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fdf5e6;
+  color: #000;
+  min-height: 100vh;
+}
+
+.contenedor {
+  max-width: 900px;
+  padding: 2rem 2.5rem;
+}
+
+h1 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.instrucciones {
+  font-size: 1rem;
+  line-height: 1.5;
+  max-width: 720px;
+  margin-bottom: 1.5rem;
+}
+
+.campo-edad {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+
+.campo-edad input {
+  width: 60px;
+  padding: 0.25rem 0.4rem;
+  font-size: 1rem;
+  border: 1px solid #000;
+  background-color: #fff;
+}
+
+.generos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 2rem;
+}
+
+.btn-genero {
+  padding: 0.5rem 1.25rem;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: inherit;
+  background-color: #d3d3d3;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+.btn-genero:hover {
+  background-color: #c4c4c4;
+}
+
+.btn-genero.activo {
+  border: 3px solid #000;
+}
+
+.recomendacion {
+  margin-top: 1rem;
+}
+
+.recomendacion-titulo {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 0.75rem;
+}
+
+.pelicula {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.cargando,
+.error {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+.error {
+  color: #8b0000;
+}
